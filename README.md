@@ -56,4 +56,4 @@ npm run dev
 
 
 ## Snapshots
-1. **Home Page:** ![Home Page]()
+1. **Home Page:** ![Home Page](Assets/homepage.png)

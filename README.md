@@ -61,3 +61,6 @@ npm run dev
 3. **Quiz Page:** ![QuizPage](Assets/quizpage.png)
 4. **Results Page:** ![Results Page](Assets/resultpage.png)
 5. **Leaderboard Page:** ![Leaderboard Page](Assets/leaderboardpage.png)
+
+## Demo Video
+[Watch the demo](https://drive.google.com/file/d/1M25S0lDVSwZhO3w04dxynuKFgN1--Kr3/view?usp=sharing)

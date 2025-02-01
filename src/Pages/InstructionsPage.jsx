@@ -1,11 +1,13 @@
 import gsap from "gsap";
 import React, { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import { useQuiz } from "../Context/QuizContext";
 
 const InstructionsPage = () => {
   const navigate = useNavigate();
   const emojiRef = useRef(null);
   const buttonRef = useRef(null);
+  const {questions} = useQuiz();
 
   useEffect(() => {
     const button = buttonRef.current;
@@ -50,6 +52,7 @@ const InstructionsPage = () => {
             <span className="font-semibold text-blue-300">10 questions</span>.
           </li>
           <li>Each question will have four options, only one being correct.</li>
+          <li>The whole quiz will be of {questions.length} minutes </li>
           <li>You need to choose the correct option for each question.</li>
           <li>
             <span className="font-semibold text-green-400">+1 point</span> for

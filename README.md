@@ -57,3 +57,7 @@ npm run dev
 
 ## Snapshots
 1. **Home Page:** ![Home Page](Assets/homepage.png)
+2. **Instructions Page:** ![InstructionPage](Assets/instructionspage.png)
+3. **Quiz Page:** ![QuizPage](Assets/quizpage.png)
+4. **Results Page:** ![Results Page](Assets/resultpage.png)
+5. **Leaderboard Page:** ![Leaderboard Page](Assets/leaderboardpage.png)
